@@ -4,6 +4,7 @@
 // 1. I think I need to first check whether dp can be applied or not.
 // 2. I passed engine with -1 to beautify main code. But I used dp[queryIdx][engine] with engine==-1
 //  and it made an unintended behavior.
+// 3. cin >> var; cin.ignore(); getline(cin, var2);
 #include<iostream>
 #include<map>
 #include<cstring>
